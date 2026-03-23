@@ -15,7 +15,7 @@ module top_level (
 );
 
     nios_system u0 (
-        .clk_clk       (CLOCK50),       
+        .clk_clk       (CLOCK100),       
         .reset_reset_n (KEY), 
         .ledr_export   (LEDR),   
         .sw_export     (SW)     
